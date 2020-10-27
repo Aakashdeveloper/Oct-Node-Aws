@@ -1,0 +1,59 @@
+Basic JavaScript
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJS-Mongo-Express)
+Third Party Api (Weather Api)
+Node-Es6(.babel)
+Github
+Email With Node(sendgrid)
+Redis  > 6379
+MongoDb Basic >27017
+Api with NodeJS(Rest)
+DashBoard(Crud)
+Chatapp
+Oauth(with github)
+Login/Logout(JWT)
+OO_NodeJs
+NodeJs with postgres
+GraphQl API
+
+----Production----
+Heroku
+Testing
+Pm2
+Nginx
+Docker
+-------NOT----
+UI Design (html css bootstrap react jquery)
+
+
+---------------------------------
+               AWS
+---------------------------------
+Ec2
+Lambda
+Elastic BeanStalk
+S3
+RDS
+DynamoDB
+Elastic Cache
+VPC
+Cloud Front
+Route53
+Api Gateway
+code commit
+code build
+code deploy
+code pipeline
+ECS
+EKS
+cloud watch
+cloud trail
+IAM
+AWS SSO
+Step Function
+MQ
+SNS
+SQS
+Billing
+

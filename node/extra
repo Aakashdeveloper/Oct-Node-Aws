@@ -1,0 +1,55 @@
+Node
+Single thread, Async , Non Block I/O
+V8 engine
+convert code in byte code
+
+MERN
+Mongo Express React Node
+
+///////////////
+NPM
+////////
+Node Package Manager
+
+Json > Way to represent the data
+
+var movies = [
+    {
+        'name':'Jab We Met'
+        'rating':4.5
+    },
+    {
+        'name':'Avengers'
+        'rating':4.6
+    }
+]
+
+
+https://nodejs.org/en/
+
+> Package.json
+=> Starting point to application
+=> Meta Data 
+    > Description
+    > Version
+    > Author
+    > Name
+=> Script
+    > Run
+    > Test
+=> Packages
+    > All package and there version
+
+/////////////
+Step to create package.json
+///////////////
+> navigate to the folder using cmd/terminal
+> cd folderpath
+> type 'npm init'
+> Answer all question
+> type 'yes'
+
+
+///////////////////
+>>>> install package
+>>>> inbuilt nodejs
