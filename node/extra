@@ -53,3 +53,35 @@ Step to create package.json
 ///////////////////
 >>>> install package
 >>>> inbuilt nodejs
+
+local dep  > local to the folder
+dev dep 
+global dep  > local to the system
+
+///////////
+Step to install local package
+///////
+> go inside folder using cmd where you want to install
+> npm i packagename/ npm install packagename/  npm i packagename --save
+
+
+///////////
+Step to install Global package
+///////
+> Package that help to generate application
+> we need admin access to install
+> They will add in package.json 
+
+#window
+> run cmd as admin
+> npm i -g packagename
+
+#mac/Linux
+> open terminal
+> sudo npm i -g packagename
+
+///////////
+Step to install dev package
+///////
+> go inside folder using cmd where you want to install
+> npm i mocha --save-dev
