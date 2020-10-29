@@ -85,3 +85,15 @@ Step to install dev package
 ///////
 > go inside folder using cmd where you want to install
 > npm i mocha --save-dev
+
+
+>>>>>
+npm start
+
+>>>>
+nodemon
+>>>>
+Contious development
+
+> npm i -g nodemon 
+> nodemon http.js
