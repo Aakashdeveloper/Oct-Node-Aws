@@ -97,3 +97,16 @@ Contious development
 
 > npm i -g nodemon 
 > nodemon http.js
+//////////////////////
+npm i express ejs mongodb
+
+CRUD
+
+create > POST
+Read > GET
+Update > PUT
+Delete > delete
+
+https://www.postman.com/
+
+https://www.mongodb.com/try/download/community
