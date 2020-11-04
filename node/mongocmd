@@ -1,0 +1,23 @@
+show dbs
+//to see all databases
+use databasename
+
+// to see collections
+show collections
+
+//Get the data
+db.collectionname.find()
+db.collectionname.find().pretty()
+
+//to create new db 
+use databasename
+
+db.first.insert({name:'John'})
+
+db.first.find()
+{ "_id" : ObjectId("5fa228bb20f5bde06c93a48a"), "name" : "John" }
+
+db.first.insert({_id:1,name:'Alvin'})
+db.first.insert({_id:'hi',name:'Sarah'})
+
+

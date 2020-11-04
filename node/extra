@@ -110,3 +110,37 @@ Delete > delete
 https://www.postman.com/
 
 https://www.mongodb.com/try/download/community
+
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+3
+
+//step to setup mongo//
+https://www.mongodb.com/try/download/community
+* After install mongodb
+> inside c drive make folder data/db
+
+//to start mongodb//
+* open cmd
+> navigate to c/programfile/mongodb/server/4.1/bin
+
+# Start server 
+> type 'mongod' (27017)
+
+#start console(test command)
+* open new cmd 
+> navigate to c/programfile/mongodb/server/4.1/bin
+> mongo
+
+
+MongoDb         Sql
+nosql
+database        database
+collections     tables
+document        row
+
+schema less     schema full
