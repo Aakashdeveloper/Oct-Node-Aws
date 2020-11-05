@@ -144,3 +144,5 @@ collections     tables
 document        row
 
 schema less     schema full
+
+npm i express ejs request
