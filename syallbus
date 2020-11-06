@@ -3,15 +3,15 @@ NPM
 Basic NodeJS(in built)(Os,file,http)
 NodeJS(full Stack App) (Node-EJS-Mongo-Express)
 Third Party Api (Weather Api)
-////////////////////////////////////////
 Node-Es6(.babel)
-Github
 Redis  > 6379
+////////////////////////////////////////
+Oauth(with github)
+Github
 
 MongoDb Basic >27017
 Api with NodeJS(Rest)
 DashBoard(Crud)
-Oauth(with github)
 
 Login/Logout(JWT)
 Email With Node(sendgrid)

@@ -146,3 +146,21 @@ document        row
 schema less     schema full
 
 npm i express ejs request
+
+npm i @babel/core @babel/preset-env @babel/register
+
+
+/////////
+redis-server
+redis-cli
+
+127.0.0.1:6379> KEYS *
+(empty array)
+set keyname value
+127.0.0.1:6379> set token 8768767
+OK
+127.0.0.1:6379> KEYS *
+1) "token"
+127.0.0.1:6379> get token
+"8768767"
+127.0.0.1:6379> 
