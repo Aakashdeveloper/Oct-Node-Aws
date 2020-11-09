@@ -164,3 +164,7 @@ OK
 127.0.0.1:6379> get token
 "8768767"
 127.0.0.1:6379> 
+
+npm i ejs express request superagent body-parser cors
+
+npm i bcryptjs body-parser cors express jsonwebtoken mongoose
