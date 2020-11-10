@@ -168,3 +168,26 @@ OK
 npm i ejs express request superagent body-parser cors
 
 npm i bcryptjs body-parser cors express jsonwebtoken mongoose
+
+https://github.com/
+
+>>>>First Time from new folder<<<<
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/nodentest.git
+git push -u origin master
+ 
+>>>>Next All Time from same folder<<<<
+git add .
+git commit -m "first commit"
+git push
+
+>>>switch branch<<<<<
+
+git checkout -b homepage
+git add .
+git commit -m "first commit"
+git push-u origin homepage
+
+git clone https://github.com/Aakashdeveloper/nodentest
