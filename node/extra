@@ -191,3 +191,5 @@ git commit -m "first commit"
 git push-u origin homepage
 
 git clone https://github.com/Aakashdeveloper/nodentest
+
+npm i express body-parser express ejs mongodb mocha chai chai-http cors

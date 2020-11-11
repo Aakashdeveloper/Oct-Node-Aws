@@ -21,3 +21,77 @@ db.first.insert({_id:1,name:'Alvin'})
 db.first.insert({_id:'hi',name:'Sarah'})
 
 
+> db.hotels.find({city:"2"},{_id:0,address:0}).pretty()
+{
+	"name" : "Trident Nariman Point",
+	"city_name" : "Mumbai",
+	"city" : "2",
+	"locality" : "Nariman Point, Mumbai",
+	"thumb" : "https://i.ibb.co/p3Dhc3q/trident.jpg",
+	"cost" : 4000
+}
+{
+	"name" : "The Taj Mahal Palace",
+	"city_name" : "Mumbai",
+	"city" : "2",
+	"locality" : "Apollo Bunder, Mumbai",
+	"thumb" : "https://i.ibb.co/W0z1JCF/tajmahal.jpg",
+	"cost" : 16500
+}
+> db.hotels.find({city:"2"},{_id:0,name:1,city_name:1}).pretty()
+{ "name" : "Trident Nariman Point", "city_name" : "Mumbai" }
+{ "name" : "The Taj Mahal Palace", "city_name" : "Mumbai" }
+
+db.hotels.find({city:"2",cost:4000}).pretty()
+{
+	"_id" : "8",
+	"name" : "Trident Nariman Point",
+	"city_name" : "Mumbai",
+	"city" : "2",
+	"locality" : "Nariman Point, Mumbai",
+	"thumb" : "https://i.ibb.co/p3Dhc3q/trident.jpg",
+	"cost" : 4000,
+	"address" : "CR 2 Nariman Point, Netaji Subhash Chandra Bose Road"
+}
+
+ db.hotels.find({},{name:1}).pretty()
+{ "_id" : "4", "name" : "The Ashtan Sarovar Portico" }
+{ "_id" : "9", "name" : "Hotel Sayaji" }
+{ "_id" : "16", "name" : "JW Marriott Chandigarh" }
+{ "_id" : "24", "name" : "Sterling Manali" }
+{ "_id" : "8", "name" : "Trident Nariman Point" }
+{ "_id" : "10", "name" : "Amanora The Fern Hotels" }
+{ "_id" : "11", "name" : "The Orchid Hotel" }
+{ "_id" : "15", "name" : "Ramada Plaza" }
+{ "_id" : "5", "name" : "The Taj Mahal Palace" }
+{ "_id" : "18", "name" : "DoubleTree by Hilton" }
+
+ db.hotels.find({cost:{$lt:8000,$gt:5000}},{name:1}).pretty()
+
+
+ db.hotels.update({_id:"16"},
+ {
+     $set:{
+         cost:5599
+     }
+
+ })
+
+ db.hotels.remove({_id:"16"})
+
+ db.hotels.count()
+
+  db.hotels.update({_id:"9"},
+ {
+     $set:{
+         isActive:true
+     }
+
+ })
+
+  db.hotels.find({},{name:1,isActive:1}).pretty()
+
+   db.hotels.find({isActive:true},{name:1,isActive:1}).pretty()
+
+   lookups
+   aggregation
