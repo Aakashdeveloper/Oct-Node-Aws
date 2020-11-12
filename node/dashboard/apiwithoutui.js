@@ -21,7 +21,10 @@ app.get('/',(req,res)=>{
 app.post('/addUser',(req,res) => {
     db.collection(col_name).insert(req.body,(err,result) => {
         if(err) throw err;
-        res.status(200).send('User Added');
+        else{
+            res.status(200).send('User Added');
+        }
+        
     });
 });
 
@@ -40,6 +43,37 @@ app.get('/users',(req,res) => {
         res.send(result);
     });
 });
+
+//update
+app.put('/updateUser',(req,res) =>{
+    db.collection(col_name).update(
+        {_id:req.body._id},
+        {
+            $set:{
+                name: req.body.name,
+                city: req.body.city,
+                phone: req.body.phone,
+                IsActive:true
+            }
+        },(err,result) => {
+            if(err){
+                throw err
+            }else{
+                res.send('Data Updated')
+            }
+        }
+    )
+})
+
+//delete
+app.delete('/deleteUser',(req,res) => {
+    db.collection(col_name).remove({_id:req.body._id},(err,result) => {
+        if(err) throw err
+        else{
+            res.send('Data Deleted')
+        }
+    })
+})
 
 
 MongoClient.connect(mongourl,(err,client) => {
