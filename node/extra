@@ -193,3 +193,12 @@ git push-u origin homepage
 git clone https://github.com/Aakashdeveloper/nodentest
 
 npm i express body-parser express ejs mongodb mocha chai chai-http cors
+
+npm i @babel/core @babel/preset-env @babel/register body-parser express mongodb
+
+
+npm i axios cors express express-graphql graphql lodash
+
+///dummy api////
+npm i -g json-server
+json-server --watch db.json --port 7700
