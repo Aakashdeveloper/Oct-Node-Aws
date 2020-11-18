@@ -14,14 +14,13 @@ DashBoard(Crud)
 Testing
 OO_NodeJs
 GraphQl API
+NodeJs with postgres
+Heroku
+Pm2
 ////////////////////////////////////////
 Email With Node(sendgrid)
 Chatapp
-NodeJs with postgres
-
 ----Production----
-Heroku
-Pm2
 Nginx
 Docker
 -------NOT----

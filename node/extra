@@ -202,3 +202,27 @@ npm i axios cors express express-graphql graphql lodash
 ///dummy api////
 npm i -g json-server
 json-server --watch db.json --port 7700
+
+https://sendgrid.com/docs/for-developers/sending-email/quickstart-nodejs/
+
+npm install @sendgrid/mail
+
+///////
+pm2
+
+npm i -g pm2 
+pm2 start start.js
+pm2 status
+pm2 stop nameofapp
+
+ Start and Daemonize any application:
+                $ pm2 start app.js
+
+                Load Balance 4 instances of api.js:
+                $ pm2 start api.js -i 4
+
+                Monitor in production:
+                $ pm2 monitor
+
+                Make pm2 auto-boot at server restart:
+                $ pm2 startup

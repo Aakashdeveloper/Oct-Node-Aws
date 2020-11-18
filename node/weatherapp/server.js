@@ -1,7 +1,7 @@
 import express from 'express';
 import request from 'request';
 const app = express();
-const port = 7999;
+const port = process.env.PORT||7999;
 
 const apiurl = "http://api.openweathermap.org/data/2.5/forecast/daily?q=Paris&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29";
 
