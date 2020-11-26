@@ -1,36 +1,8 @@
-Basic JavaScript
-NPM
-Basic NodeJS(in built)(Os,file,http)
-NodeJS(full Stack App) (Node-EJS-Mongo-Express)
-Third Party Api (Weather Api)
-Node-Es6(.babel)
-Redis  > 6379
-Oauth(with github)
-Github
-Login/Logout(JWT)
-MongoDb Basic >27017
-Api with NodeJS(Rest)
-DashBoard(Crud)
-Testing
-OO_NodeJs
-GraphQl API
-NodeJs with postgres
-Heroku
-Pm2
-////////////////////////////////////////
-Email With Node(sendgrid)
-Chatapp
-----Production----
-Nginx
-Docker
--------NOT----
-UI Design (html css bootstrap react jquery)
-
-
 ---------------------------------
                AWS
 ---------------------------------
 Ec2
+////////////////////
 Lambda
 Elastic BeanStalk
 S3
@@ -56,4 +28,37 @@ MQ
 SNS
 SQS
 Billing
+
+
+----------------------------
+
+Basic JavaScript
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJS-Mongo-Express)
+Third Party Api (Weather Api)
+Node-Es6(.babel)
+Redis  > 6379
+Oauth(with github)
+Github
+Login/Logout(JWT)
+MongoDb Basic >27017
+Api with NodeJS(Rest)
+DashBoard(Crud)
+Testing
+OO_NodeJs
+GraphQl API
+NodeJs with postgres
+Chatapp
+----Production----
+Nginx
+Docker
+Heroku
+Pm2
+Email With Node(sendgrid)
+
+
+-------NOT----
+UI Design (html css bootstrap react jquery)
+
 
