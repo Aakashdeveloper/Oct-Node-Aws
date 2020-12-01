@@ -2,10 +2,10 @@
                AWS
 ---------------------------------
 Ec2
-////////////////////
-Lambda
 Elastic BeanStalk
 S3
+////////////////////
+Lambda
 RDS
 DynamoDB
 Elastic Cache
