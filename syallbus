@@ -4,27 +4,32 @@
 Ec2
 Elastic BeanStalk
 S3
-////////////////////
-Lambda
 RDS
-DynamoDB
 Elastic Cache
-VPC
-Cloud Front
-Route53
-Api Gateway
+load balancer
 code commit
 code build
 code deploy
 code pipeline
-ECS
-EKS
+IAM
+////////////////////
+Lambda
+
+Cloud Front
+Route53
+Api Gateway
+DynamoDB
+
 cloud watch
 cloud trail
-IAM
 AWS SSO
 Step Function
 MQ
+
+VPC
+
+ECS
+EKS
 SNS
 SQS
 Billing

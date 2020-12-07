@@ -6,14 +6,7 @@
 <html>
 <head></head>
 <body style="background-color:red">
-<h1>Linux first Machine</h1>
-</body>
-</html>
-
-<html>
-<head></head>
-<body style="background-color:teal">
-<h1>Linux Second Machine</h1>
+<h1>Linux Third Machine</h1>
 </body>
 </html>
 
@@ -44,7 +37,7 @@ Healthy threshold     ==10
     => Add Ec2 instance
         => Add Tag
             =>Review & launch
-            > add inbound rule as http 80 
+
 
 /**************************
     Auto scale
@@ -87,3 +80,11 @@ prequest
             =>whenever=>CPu
             =>is lessthan or greater = provide %
                 =>Add Tags
+
+/**************************
+   Strees Testing ******HW
+**************************/
+=> Connect with launched Ec2
+    =>Open terminal
+        =>type "stress"
+        =>type "remove stress"
